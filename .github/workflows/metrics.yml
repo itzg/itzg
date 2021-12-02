@@ -1,0 +1,13 @@
+name: Generate Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  metrics:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Metrics embed
+        uses: lowlighter/metrics@v3
