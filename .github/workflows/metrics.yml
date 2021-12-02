@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Metrics embed
-        uses: lowlighter/metrics@v3
+        uses: lowlighter/metrics@v3.16
