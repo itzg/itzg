@@ -17,6 +17,4 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_languages: yes
-          plugin_traffic: yes
-          config_timezone: America/Chicago
           plugin_languages_ignored: html, css
